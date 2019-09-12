@@ -12,5 +12,9 @@ Usage:
 ```sh
 $ git clone https://github.com/hexiaolong2008/my-qemu.git
 $ cd my-qemu/
+$ ./run.sh
+
+or
+
 $ ./qemu-system-arm -M vexpress-a9 -kernel zImage -dtb vexpress-v2p-ca9.dtb -sd a9rootfs.ext3 -append "root=/dev/mmcblk0 rw"
 ```
