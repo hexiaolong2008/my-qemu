@@ -1,10 +1,10 @@
 # my-qemu
 My QEMU for linux kernel test.
 
-qemu-system-arm: QEMU 2.11.0
-a9rootfs.ext3: rootfs, busybox 1.20.2
-zImage: linux-4.14.143 vexpress kernel image
-vexpress-v2p-ca9.dtb: VEXPRESS-CA9 board
+* qemu-system-arm: QEMU 2.11.0
+* a9rootfs.ext3: rootfs, busybox 1.20.2
+* zImage: linux-4.14.143 vexpress kernel image
+* vexpress-v2p-ca9.dtb: VEXPRESS-CA9 board
 
 
 Usage:
